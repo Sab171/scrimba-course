@@ -1,0 +1,77 @@
+@font-face{
+    font-family: cursed-timer;
+    src: url(CursedTimerUlil-Aznm.ttf)
+}
+
+body {
+    margin: 0;
+    background: #1B244A;
+    font-weight: 700px;
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 68px;
+    text-shadow: 0 0 3px; 
+}
+
+.container {
+    /* margin-top: 63px; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.score{
+    font-family: cursed-timer;
+    color: #F94F6D;
+    font-size: 90px;
+    background: #080001;
+    height: 120px;
+    width: 117px;
+    /* centering digits */
+    display: flex;
+    justify-content: center;
+    line-height: 140px;
+    margin: 21px auto 26px auto; /* centering black box*/
+    padding: 0 20px 0 18px;
+    border-radius: 5px;
+    /*added*/
+    text-shadow: 0 0 5px rgba(249, 79, 109, .8); 
+    box-shadow: 0 0 3px #080001;
+}
+
+button{
+    font-family: cursed-timer;
+    background: none;
+    color: #9AABD8;
+    border: 2px solid;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px; 
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.btns{ /*add buttons*/
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+}
+
+#reset{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#reset-btn{
+    width: auto;
+}
